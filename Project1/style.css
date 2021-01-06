@@ -1,0 +1,260 @@
+.header{
+    padding-left: 50%;
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.header ul li{
+    display: inline-block;
+    margin-right: 5px;
+    align-items: center;
+    margin-left: 80px;
+}
+.header ul li a{
+    color: rgb(8, 8, 8);
+    font-weight: 800;
+    font-size: 24;
+    line-height: 50px;
+    letter-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+#ex{
+    color: #F46060;
+}
+h3{
+    color: sandybrown;
+}
+.highlighter{
+    color: orange;
+}
+p{
+    color:dimgray;
+}
+.half{
+    width: 40%; 
+    float: left;  
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.topbanner .half img{
+    width: 100%;
+}
+.dream .half img{
+    width: 100%;
+}
+.dream .half{
+    width: 30%; 
+    float: left;  
+    margin-left: 10%;
+    padding-left: 5%;
+}
+.topbanner{
+    height: 600px;
+    padding-bottom: 20px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.link-button2{
+    width: 170px;
+    height: 120px;
+    left: 831px;
+    top: 969px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.iconify{
+    background: url('https://api.iconify.design/ic-baseline-vertical-align-bottom.svg?color=%23FFFFFF') no-repeat center center / contain;
+    content: url('https://api.iconify.design/ic-baseline-vertical-align-bottom.svg?color=%23FFFFFF&height=24');
+    vertical-align: -0.125em;
+}
+.link-button1{
+    width: 170px;
+ height: 60px;
+ left: 831px;
+ top: 969px;
+ background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+ border-radius: 6px;
+ color: white;
+ padding: 10px;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 24px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,lightSalmon,tomato);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.dream{
+    height: 400px;
+    padding-bottom: 20px;
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 5%;
+}
+.single-exp{
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5%;
+    background-color: white;
+    width: 25%;
+    margin-top: 1%;
+}
+.single-exp img{
+    width: 100%;
+}
+.exp{
+    float: left;
+
+}
+#borderR{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#borderM{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#borderL{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+
+}
+.work{
+    padding-top: 2%;
+    height: 200px;
+    padding-bottom: 20px;
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-left: 22%;
+    margin-top: 70%;
+    padding-left: 3%;
+    margin-bottom: 0;
+}
+.inquiry{
+    float: left;
+}
+#w1{
+    margin-left: 0;
+}
+#w2{
+    padding-top: 4%;
+    margin-left: 40%;
+}
+#service{
+    font-size: 40px;
+    color: white;
+    font-weight: 4500px;
+}
+.icons{
+    padding-bottom: 100px;
+    align-content: center;
+}
+.connect{
+    margin-top: 10%;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+.connect h5{
+    color:#696871;
+}
+.connect h3{
+    color: #363958;;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    left: 635px;
+    top: 2539px;
+}
+.update{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-top: 10%;
+}
+.update h3{
+    margin-bottom: 10px;
+    font-size: 42px;
+    color: black;
+
+}
+.update p{
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.newsletter{
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+}
+.newsletter .input{
+    width: 100%;
+    padding: 30px 100px 30px 60px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.newsletter .fas{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    font-size: 20px;
+}
+.newsletter .btn{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: #1392e7;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: rgb(247, 244, 244);
+    text-transform: uppercase;
+    cursor: pointer;
+}
