@@ -58,6 +58,10 @@ p{
 }
 .dream .half img{
     width: 100%;
+    margin-top: 10px;
+    position: relative;
+    bottom: 100px;
+    right: 100px;
 }
 .dream .half{
     width: 30%; 
@@ -228,8 +232,9 @@ footer p{
 }
 .newsletter{
     width: 100%;
-    max-width: 550px;
+    max-width: 30%;
     position: relative;
+    right: 100px;
 }
 .newsletter .input{
     width: 100%;
@@ -247,14 +252,13 @@ footer p{
 .newsletter .btn{
     position: absolute;
     top: 50%;
-    right: 20px;
+    left: 100%;
     transform: translateY(-50%);
     background: #1392e7;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 25px;
     font-size: 12px;
     letter-spacing: 5px;
     color: rgb(247, 244, 244);
-    text-transform: uppercase;
     cursor: pointer;
 }
